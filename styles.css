@@ -27,3 +27,19 @@ font-size: 50px;
   font-family: 'Playfair Display', serif;
 
 }
+
+.but{
+text-align: center;
+padding: 1rem;
+}
+
+button:hover{
+    background-color: lightpink;
+}
+
+.rtt{   
+font-family: 'Roboto Condensed', sans-serif;
+display: inline-flex;
+padding: 1rem;
+margin: -1rem;
+}

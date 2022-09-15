@@ -54,3 +54,48 @@ bottom: 100px;
 ***/
 
 
+    
+    button:hover{
+        background-color: lightpink;
+    }
+    
+
+
+   
+ 
+.ctrbut .rtt2{
+        
+        font-family: 'Roboto Condensed', sans-serif;
+        display: inline-flex;
+        padding: 1rem;
+        margin: -1rem;
+        
+       
+    }
+.but{
+    text-align: center;
+    
+}
+
+.but1{
+    text-align: right;
+}
+
+.rtt{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 1rem;
+    margin: -1rem;
+}
+
+.next-but{
+    position: relative;
+left: 600px;
+}
+
+    /******
+
+
+   
+}****/
+
+   
