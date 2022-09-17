@@ -6,7 +6,9 @@ img{
 
 body{
     background-color: bisque;
-    padding: 10%;
+    padding-top: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
 
 }
 
@@ -61,36 +63,42 @@ bottom: 100px;
     
 
 
-   
+    .next-but{
+        position: relative;
+        left: 600px;
+    }
+
+    .left-but{
+        float: left;
+    }
  
-.ctrbut .rtt2{
+.ctrbut .rtt2 {
         
         font-family: 'Roboto Condensed', sans-serif;
         display: inline-flex;
         padding: 1rem;
         margin: -1rem;
-        
-       
-    }
-.but{
-    text-align: center;
+     }
+     
+
+
+     .but{
+        text-align: center;
+        }
     
-}
+    .rtt{
+            font-family: 'Roboto Condensed', sans-serif;
+            padding: 1rem;
+            margin: -1rem;
+        }
 
-.but1{
-    text-align: right;
-}
-
-.rtt{
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 1rem;
-    margin: -1rem;
-}
-
-.next-but{
+#mid{
     position: relative;
-left: 600px;
+    left: -14%;
 }
+
+
+
 
     /******
 
