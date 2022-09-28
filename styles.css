@@ -3,6 +3,10 @@
     width: 800px; 
 }
 
+body{
+    padding-top: 10%;
+}
+
 .sub-heading{
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -28,22 +32,27 @@ font-size: 50px;
 
 }
 
+/* trying flexbox instead
 .but{
 text-align: center;
+}
+*/
 
+
+
+.box{
+    display: flex;
+    justify-content: center;
 }
 
 button:hover{
     background-color: lightpink;
+    margin: auto;
 }
 
-.rtt{   
+.rtop {   
 font-family: 'Roboto Condensed', sans-serif;
-display: inline-flex;
 padding: 1rem;
 margin: -1rem;
 }
 
-body{
-    padding-top: 10%;
-}

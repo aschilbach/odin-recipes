@@ -61,7 +61,7 @@ bottom: 100px;
         background-color: lightpink;
     }
     
-
+/* trying flex isntead
 
     .next-but{
         position: relative;
@@ -97,13 +97,65 @@ bottom: 100px;
     left: -14%;
 }
 
+*/
 
+  .box{
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .box2{
+    display: flex;
+    justify-content: space-between;
+    
+  }
 
-    /******
+ 
+  .box .main{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 1rem;
+    margin: -1rem;
 
+   }
+
+   .next{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 1rem;
+    margin: -1rem;
+   }
 
    
-}****/
 
+   .main{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 1rem;
+    margin: -1rem;
+   }
+
+   .pre2{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 1rem;
+    margin: -1rem;
+    order: -1;
+   }
    
+   .main2{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 1rem;
+    margin: -1rem;
+    justify-content: center;
+   
+   }
+
+   .next2{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 1rem;
+    margin: -1rem;
+  
+   }
+
+   .main3{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 1rem;
+    margin: -1rem;
+   }
